@@ -1,13 +1,22 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
 
 const ServicesPage = () => {
-  // Manejador de eventos para el botón
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  
   const handleContactClick = () => {
-    // Abre WhatsApp con el número específico
-    window.open("https://wa.me/+573013375876", "_blank");
+    
+    if (isClient) {
+      window.open("https://wa.me/+573013375876", "_blank");
+    }
   };
 
   return (
@@ -29,7 +38,7 @@ const ServicesPage = () => {
           </p>
           <button
             className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65"
-            onClick={handleContactClick} // Asocia el manejador de eventos al botón
+            onClick={handleContactClick} 
           >
             Contacta conmigo
           </button>

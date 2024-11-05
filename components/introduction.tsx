@@ -1,13 +1,31 @@
 "use client";
+import { useEffect, useState } from "react";
 import { talkWithMe } from "@/data";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 const Introduction = () => {
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    // Limpiar el event listener cuando el componente se desmonte
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div
       className={`z-20 w-full bg-darkBg/60 ${
-        window.innerWidth < 500 ? "" : ""
+        windowWidth < 500 ? "" : ""
       }`}
     >
       <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2 gap-8">
