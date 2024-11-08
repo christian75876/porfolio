@@ -82,7 +82,7 @@ export const itemsNavbar = [
 export const dataAboutPage = [
   {
     id: 1,
-    title: "Desarrollador Back-end",
+    title: "Desarrollador Full-stack",
     subtitle: "RIWI",
     description:
       "Actualmente, estudiante en formación con una intensidad horaria de 8 horas diarias en la compañía RIWI, en Medellín, especializado en JavaScript para desarrollo Back-end.",
@@ -165,19 +165,19 @@ export const serviceData = [
     icon: <Crop />,
     title: "Validations",
     description:
-      "Asistencia en la ejecución de pruebas para sistemas computarizados en la industria farmacéutica.",
+      "Soporte en la implementación y ejecución de pruebas unitarias y funcionales para garantizar la calidad del software.",
   },
   {
     icon: <Pencil />,
-    title: "Backend Development",
+    title: "Backend",
     description:
-      "Soporte en el desarrollo backend, ayudando en la creación de APIs y la lógica del servidor.",
+      "Desarrollo backend, encargándome de la creación de APIs y la implementación de la lógica del servidor.",
   },
   {
     icon: <Computer />,
-    title: "Web Development",
+    title: "Frontend",
     description:
-      "Colaboración en el desarrollo y mantenimiento de sitios web, centrado en funcionalidad y adaptabilidad.",
+      "Desarrollo y mantenimiento de sitios web, centrado en usabilidad, funcionalidad y adaptabilidad.",
   },
   {
     icon: <Book />,
