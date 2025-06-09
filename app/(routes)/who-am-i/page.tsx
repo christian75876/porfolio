@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
 import Snake3D from "@/components/Snake3D";
+import { BasiliskNarrationOverlay } from "@/utils/basilisk-narration-overlay";
 
 const ServicesPage = () => {
   const [isClient, setIsClient] = useState(false);
@@ -19,7 +20,7 @@ const ServicesPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center w-full h-screen p-6 ">
+    <div className="flex flex-col items-center justify-center w-full h-screen p-4 mb-30 mt-8 ">
       <TransitionPage />
       <div className="grid items-center justify-center h-screen  mx-auto md:grid-cols-2 w-full">
         <div className="space-y-4 w-full p-2 mt-20 md:mt-0 ">
@@ -46,8 +47,14 @@ const ServicesPage = () => {
           </h3>
           <SliderServices />
         </div>
-        <div className="h-full w-full flex justify-center items-center">
-          <Snake3D />
+        <div className="h-full w-full flex justify-center items-center mb-20">
+          <div className="h-full w-full flex flex-col justify-center items-center relative">
+            <BasiliskNarrationOverlay />
+            <Snake3D />
+            <div className="mb-6 px-4 py-1 bg-black/80 text-white text-xs md:text-sm rounded-full shadow z-10 animate-bounce select-none pointer-events-none bg-slate-500/30">
+              ¡Arrastra, haz zoom y explora el basilisco!
+            </div>
+          </div>
         </div>
       </div>
     </div>
