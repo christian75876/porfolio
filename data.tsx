@@ -63,7 +63,7 @@ export const itemsNavbar = [
     id: 3,
     title: "Book",
     icon: <BookText size={25} color="#fff" strokeWidth={1} />,
-    link: "/services",
+    link: "/who-am-i",
   },
   {
     id: 4,
@@ -82,78 +82,55 @@ export const itemsNavbar = [
 export const dataAboutPage = [
   {
     id: 1,
-    title: "Desarrollador Full-stack",
-    subtitle: "RIWI",
+    title: "Desarrollador Web y Product Owner",
+    subtitle: "BlackBirdLabs",
     description:
-      "Actualmente, estudiante en formación con una intensidad horaria de 8 horas diarias en la compañía RIWI, en Medellín, especializado en JavaScript para desarrollo Back-end.",
-    date: "Actual",
+      "Desempeño un rol dual como Desarrollador de Aplicaciones Web y Product Owner en equipos ágiles, combinando habilidades técnicas en desarrollo (JavaScript, TypeScript, Node.js, HTML, CSS) con liderazgo en la gestión de productos digitales bajo el marco Scrum. Me especializo en la construcción de soluciones web escalables, gestión efectiva del backlog y facilitación de ceremonias ágiles, siempre enfocado en la entrega de valor al usuario final y la mejora continua.",
+    date: "Nov 2024 - Actualidad",
   },
   {
     id: 2,
-    title: "Analítica Básica con Python",
-    subtitle: "Institución Educativa Pascual Bravo",
+    title: "Auxiliar en Validación de Sistemas Informáticos",
+    subtitle: "LifeFactors",
     description:
-      "Completé la formación en análisis básico con Python, con una intensidad horaria de 20 horas.",
-    date: "Mar 2024",
+      "Apoyo en la validación y prueba de sistemas informáticos, asegurando la calidad y el cumplimiento de los requisitos del cliente. Colaboro con equipos técnicos para identificar y corregir posibles fallos, optimizando procesos y mejorando la estabilidad de las plataformas desarrolladas.",
+    date: "Ene 2022 - May 2025",
   },
   {
     id: 3,
-    title: "Desarrollo de Aplicaciones Android",
-    subtitle: "Institución Educativa Pascual Bravo",
+    title: "Desarrollador Full-stack",
+    subtitle: "RIWI",
     description:
-      "Programa de 120 horas en el componente técnico, 48 horas en inglés especializado y 24 horas en habilidades blandas. Completé con éxito la etapa práctica.",
-    date: "Dic 2023",
-  },
-  {
-    id: 4,
-    title: "Oracle Next Education F2 T5 Back-end",
-    subtitle: "Programación Back-end en Java",
-    description:
-      "Completé 6 formaciones con una carga de trabajo estimada de 331 horas.",
-    date: "Sep 2023",
-  },
-  {
-    id: 5,
-    title: "Fundamentos de Programación",
-    subtitle: "Programación desde Cero",
-    description:
-      "Estudiante en el área de programación básica en Egg, con una intensidad de 81 horas teóricas y prácticas.",
-    date: "Abr 2023",
-  },
-  {
-    id: 6,
-    title: "Analista Químico",
-    subtitle: "Técnico en Química",
-    description: "Estudiante en el Instituto Colombiano SENA.",
-    date: "Ene 2023",
+      "Desarrollador de aplicaciones web con enfoque Full Stack, utilizando tecnologías como JavaScript, React, Node.js, y herramientas de gestión de estado global. Apoyo la implementación de soluciones escalables en el backend y colaboro en el desarrollo de interfaces de usuario interactivas en el frontend.",
+    date: "Ene 2023 - Nov 2024",
   },
 ];
 
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 1,
+    endCounter: 2,
     text: "Año de experiencia",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 20,
+    endCounter: 50,
     text: "Proyectos realizados",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 8,
+    endCounter: 10,
     text: "Años trabajando en compañías",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 3,
-    endCounter: 4,
+    endCounter: 5,
     text: "Certificaciones obtenidas",
     lineRight: false,
     lineRightMobile: false,
@@ -163,33 +140,33 @@ export const dataCounter = [
 export const serviceData = [
   {
     icon: <Crop />,
-    title: "Validations",
+    title: "Validaciones y Pruebas",
     description:
-      "Soporte en la implementación y ejecución de pruebas unitarias y funcionales para garantizar la calidad del software.",
+      "Ejecuto y gestiono pruebas unitarias y funcionales para asegurar la calidad, confiabilidad y cumplimiento de los requisitos del software en cada etapa del desarrollo.",
   },
   {
     icon: <Pencil />,
     title: "Backend",
     description:
-      "Desarrollo backend, encargándome de la creación de APIs y la implementación de la lógica del servidor.",
+      "Diseño y desarrollo APIs robustas, implementando lógica de servidor eficiente y segura, así como gestionando la integración de bases de datos y servicios externos.",
   },
   {
     icon: <Computer />,
     title: "Frontend",
     description:
-      "Desarrollo y mantenimiento de sitios web, centrado en usabilidad, funcionalidad y adaptabilidad.",
+      "Desarrollo interfaces web interactivas y accesibles, enfocándome en la experiencia de usuario, la adaptabilidad móvil y la integración fluida con servicios backend.",
   },
   {
     icon: <Book />,
-    title: "Technical Documentation",
+    title: "Documentación Técnica",
     description:
-      "Redacción y apoyo en la documentación técnica para proyectos de desarrollo backend.",
+      "Redacto y mantengo documentación clara y precisa, facilitando la comprensión y la colaboración en proyectos de desarrollo, especialmente en entornos backend.",
   },
   {
     icon: <Rocket />,
-    title: "Performance Optimization",
+    title: "Optimización de Performance",
     description:
-      "Apoyo en la optimización de rendimiento de aplicaciones web y backend.",
+      "Identifico y soluciono cuellos de botella para mejorar el rendimiento y la escalabilidad de aplicaciones web, logrando tiempos de respuesta más rápidos y mayor eficiencia.",
   },
 ];
 

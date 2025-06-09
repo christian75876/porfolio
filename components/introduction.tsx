@@ -23,11 +23,7 @@ const Introduction = () => {
   }, []);
 
   return (
-    <div
-      className={`z-20 w-full bg-darkBg/60 ${
-        windowWidth < 500 ? "" : ""
-      }`}
-    >
+    <div className={`z-20 w-full bg-darkBg/60 ${windowWidth < 500 ? "" : ""}`}>
       <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2 gap-8">
         <Image
           src="/home-1.png"
@@ -39,7 +35,7 @@ const Introduction = () => {
         />
 
         <div className="flex flex-col justify-center max-w-md">
-          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
+          <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-1">
             Si puedes pensarlo, <br />
             <TypeAnimation
               sequence={[
@@ -68,14 +64,17 @@ const Introduction = () => {
               className="font-bold text-secondary"
             />
           </h1>
-          <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-            Soy un desarrollador junior con pasión por el desarrollo de
-            software, siempre en búsqueda de oportunidades para implementar y
-            expandir mis habilidades. Me entusiasmo por explorar nuevas
-            tecnologías. Tengo habilidades blandas sólidas como la comunicación
-            y el trabajo en equipo, lo que me permite colaborar eficazmente y
-            adaptarme rápidamente.
-          </p>
+          <div className="flex flex-col items-center justify-center text-justify gap-3 md:items-start">
+            <p className="">
+              Soy un desarrollador de software, con pasión por el desarrollo de
+              software, siempre en búsqueda de oportunidades para implementar y
+              expandir mis habilidades. Me entusiasmo por explorar nuevas
+              tecnologías. Tengo habilidades blandas sólidas como la
+              comunicación y el trabajo en equipo, lo que me permite colaborar
+              eficazmente y adaptarme rápidamente.
+            </p>
+          </div>
+
           <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
             <a
               href="https://github.com/christian75876?tab=repositories"

@@ -18,16 +18,18 @@ const TimeLine = () => {
                                         sm:after:left-0 after:w-2 after:h-2 after:bg-red-600 
                                         after:border-4 after:box-content after:border-slate-50 
                                         after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 
-                                        after:translate-y-1.5"
+                                        after:translate-y-0.5"
               >
-                <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-black bg-white rounded-full">
+                <time className="sm:absolute -left-16 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase p-2 h-6 sm:mb-3 text-black bg-white rounded-full">
                   {data.date}
                 </time>
                 <div className="text-xl font-bold text-gray-400">
                   {data.subtitle}
                 </div>
               </div>
-              <div className="text-slate-400 max-w-md">{data.description}</div>
+              <div className="text-slate-400 max-w-md text-justify">
+                {data.description}
+              </div>
             </div>
           ))}
         </div>
