@@ -176,7 +176,7 @@ export const dataPortfolio = [
     title: "Riwi - Portal clientes",
     image: "/Fondo-claro-logo2-1.jpg",
     urlGithub: "#!",
-    urlDemo: "#!",
+    urlDemo: "https://riwi.io/",
     description:
       "Sitio web para clientes orientado a la consulta de servicios, solicitudes y soporte, construido sobre WordPress con personalización visual y funcional.",
     contribution:
@@ -187,7 +187,7 @@ export const dataPortfolio = [
     title: "Dropshipping - Ecommerce",
     image: "/icon-deuna.svg",
     urlGithub: "#!",
-    urlDemo: "#!",
+    urlDemo: "https://deuna-demo.vercel.app/dashboard",
     description:
       "Plataforma web para la gestión integral de tiendas de dropshipping, permitiendo administrar catálogos, inventarios, pedidos y pagos en tiempo real.",
     contribution:
@@ -198,7 +198,8 @@ export const dataPortfolio = [
     title: "Chatbot - para WhatsApp",
     image: "/chatbot-logo.svg",
     urlGithub: "#!",
-    urlDemo: "#!",
+    urlDemo:
+      "https://web.whatsapp.com/send?phone=573004628624&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20sobre%20Riwi.",
     description:
       "Sistema conversacional automatizado vía WhatsApp, diseñado para gestionar consultas, reservas y atención al cliente de forma eficiente y escalable.",
     contribution:
