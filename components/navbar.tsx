@@ -32,7 +32,7 @@ const Navbar = () => {
     >
       <nav className={`${windowWidth < 500 ? "w-full fixed bottom-0" : ""}`}>
         <div
-          className={`flex items-center justify-center gap-2 px-4 py-1 rounded-full ${
+          className={`flex items-center justify-between gap-2 px-4 py-1 h-20 rounded-full ${
             windowWidth < 500
               ? "bg-secondary rounded-none w-full"
               : "bg-white/15 backdrop-blur-sm"

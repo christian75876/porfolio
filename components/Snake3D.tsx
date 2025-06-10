@@ -87,9 +87,9 @@ function SnakeModel() {
     <primitive
       ref={group}
       object={fbx}
-      scale={0.009}
+      scale={0.01}
       rotation={[0, 80, 0]}
-      position={[0, -1, 0]}
+      position={[0, -1.3, 0]}
     />
   );
 }
@@ -97,8 +97,8 @@ function SnakeModel() {
 export default function Snake3D() {
   return (
     <Canvas
-      camera={{ position: [0, 2, 8], fov: 45 }}
-      style={{ width: "80%", height: "80%" }}
+      camera={{ position: [0, -2, 8], fov: 45 }}
+      style={{ width: "100%", height: "70%" }}
       shadows
     >
       <directionalLight

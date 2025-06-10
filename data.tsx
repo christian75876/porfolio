@@ -71,12 +71,12 @@ export const itemsNavbar = [
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
     link: "/portfolio",
   },
-  {
-    id: 5,
-    title: "Home",
-    icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-    link: "/testimonials",
-  },
+  // {
+  //   id: 5,
+  //   title: "Home",
+  //   icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+  //   link: "/testimonials",
+  // },
 ];
 
 export const dataAboutPage = [
@@ -173,31 +173,36 @@ export const serviceData = [
 export const dataPortfolio = [
   {
     id: 1,
-    title: "Web Pro",
-    image: "/image-1.jpg",
+    title: "Riwi - Portal clientes",
+    image: "/Fondo-claro-logo2-1.jpg",
     urlGithub: "#!",
     urlDemo: "#!",
+    description:
+      "Sitio web para clientes orientado a la consulta de servicios, solicitudes y soporte, construido sobre WordPress con personalización visual y funcional.",
+    contribution:
+      "Encargado de tareas de mantenimiento y mejoras continuas en una página realizada con WordPress y Elementor. Aseguré la correcta operatividad, actualizaciones y personalización de secciones según los requerimientos del cliente.",
   },
   {
     id: 2,
-    title: "Desarrollo Web Ágil",
-    image: "/image-2.jpg",
+    title: "Dropshipping - Ecommerce",
+    image: "/icon-deuna.svg",
     urlGithub: "#!",
     urlDemo: "#!",
+    description:
+      "Plataforma web para la gestión integral de tiendas de dropshipping, permitiendo administrar catálogos, inventarios, pedidos y pagos en tiempo real.",
+    contribution:
+      "Como Desarrollador Junior, participé desde cero en la creación del proyecto, implementando la interfaz de usuario y la lógica de negocio con Next.js. Colaboré en la integración de funcionalidades clave para la experiencia del cliente y el panel administrativo.",
   },
   {
     id: 3,
-    title: "Estrategias Web",
-    image: "/image-3.jpg",
+    title: "Chatbot - para WhatsApp",
+    image: "/chatbot-logo.svg",
     urlGithub: "#!",
     urlDemo: "#!",
-  },
-  {
-    id: 4,
-    title: "Ideas Creativas",
-    image: "/image-4.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
+    description:
+      "Sistema conversacional automatizado vía WhatsApp, diseñado para gestionar consultas, reservas y atención al cliente de forma eficiente y escalable.",
+    contribution:
+      "Como Product Owner, lideré la definición de requisitos, priorización de funcionalidades y validación de entregables. Supervisé el desarrollo del chatbot, asegurando la alineación con los objetivos del negocio y la satisfacción de los usuarios finales.",
   },
 ];
 

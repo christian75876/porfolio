@@ -49,9 +49,9 @@ const ServicesPage = () => {
         </div>
         <div className="h-full w-full flex justify-center items-center mb-20">
           <div className="h-full w-full flex flex-col justify-center items-center relative">
-            <BasiliskNarrationOverlay />
             <Snake3D />
-            <div className="mb-6 px-4 py-1 bg-black/80 text-white text-xs md:text-sm rounded-full shadow z-10 animate-bounce select-none pointer-events-none bg-slate-500/30">
+            <BasiliskNarrationOverlay />
+            <div className="mb-12 px-3  py-1 bg-black\/80 text-white text-xs md:text-sm rounded-full shadow z-10 animate-bounce select-none pointer-events-none bg-slate-500/30">
               ¡Arrastra, haz zoom y explora el basilisco!
             </div>
           </div>
